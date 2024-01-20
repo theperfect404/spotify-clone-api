@@ -3,7 +3,7 @@ const useAuthStore = defineStore("auth", {
   state: () => {
     return {
       clientId: "2bc49405e00b4e35b6b24e9e895866fc",
-      redirectUri: "http://localhost:5173",
+      redirectUri: "https://theperfect404.github.io/spotify-clone-api",
       scope: "user-read-private user-read-email user-top-read",
       token: null, // Will be updated after login
     };
